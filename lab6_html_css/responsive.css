@@ -6,10 +6,6 @@
         transition: ease-in-out 200ms;
     }
 }
-
-.headertop{
-
-}
 .navright div:nth-child(1){
     margin-left: 0px;
 }
@@ -17,26 +13,8 @@
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------ BREAKPOINT : 900px -----*/
 @media only screen and (max-width:900px){
-    body{
-        
-    }
     .navright{
         display: none;
     }
