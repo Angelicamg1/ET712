@@ -1,0 +1,63 @@
+/*------ BREAKINGPOINT :1230 px -----*/
+@media only screen and (max-width :1230px){
+    body{background-color: aqua;}
+    .navleft, .navright{
+        width: 100%;
+        transition: ease-in-out 200ms;
+    }
+}
+
+.headertop{
+
+}
+.navright div:nth-child(1){
+    margin-left: 0px;
+}
+.navright, .navleft{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ BREAKPOINT : 900px -----*/
+@media only screen and (max-width:900px){
+    body{
+        
+    }
+    .navright{
+        display: none;
+    }
+}
+.cardcontainer{
+    width: 100%;
+}
+.blogs{
+    width: 100%;
+}
+.card{
+    width: 90%;
+}
+
+/*------ BREAKPOINT : 600 px ------ */
+@media only screen and (max-width: 600px){
+        .homeiconimg{display: none;}
+        .homeiconlink{font-size: 0.7em; text-align: center;}
+        .navlinks{padding: 10px;}
+        .links{font-size: 0.7em;}
+        .introtitle{font-size: 1.2em; bottom: 0px; color: whitesmoke;}
+        .body
+
+}
